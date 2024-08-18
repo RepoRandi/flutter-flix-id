@@ -1,0 +1,38 @@
+name: flix_id
+description: 'A new Flutter project.'
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  cloud_firestore: ^5.1.0
+  cupertino_icons: ^1.0.6
+  dio: ^5.5.0+1
+  firebase_auth: ^5.1.2
+  firebase_core: ^3.2.0
+  firebase_storage: ^12.1.1
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  freezed_annotation: ^2.4.3
+  json_annotation: ^4.9.0
+  path: ^1.9.0
+  riverpod_annotation: ^2.3.5
+
+dev_dependencies:
+  build_runner: ^2.4.11
+  custom_lint: ^0.6.4
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+  freezed: ^2.5.2
+  json_serializable: ^6.8.0
+  riverpod_generator: ^2.4.0
+  riverpod_lint: ^2.3.10
+
+flutter:
+  uses-material-design: true
